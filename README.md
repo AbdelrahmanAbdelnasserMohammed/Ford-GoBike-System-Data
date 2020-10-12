@@ -22,7 +22,7 @@ PIL
 
 ## Dataset
 
-> Data is originally composed of 152446 rows and  13 columns. I drop 'start_station_id', 'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng' since they are irrelevent to my investigation. Moreover, I drop all the null values. Thus, I am left with 84114 rows and , 7 columns. Finally I derive duration of the trip from hte start and end time of the trip and the day time from the start time and add column hour which is the hour at which the bike is rented.
+Data is originally composed of 152446 rows and  13 columns. I drop 'start_station_id', 'end_station_id', 'start_lat', 'start_lng', 'end_lat', 'end_lng' since they are irrelevent to my investigation. Moreover, I drop all the null values. Thus, I am left with 84114 rows and , 7 columns. Finally I derive duration of the trip from hte start and end time of the trip and the day time from the start time and add column hour which is the hour at which the bike is rented.
 
 ## Summary of Findings
 
